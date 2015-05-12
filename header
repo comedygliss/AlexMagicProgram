@@ -1,0 +1,28 @@
+using namespace std;
+
+#ifndef MAGIC_H
+#define MAGIC_H
+
+#define _WIN32_WINNT 0x0500
+#include <cstdlib>
+#include <iostream>
+#include <iomanip>
+#include <windows.h>
+#include <cmath>
+#include <cctype>
+#include <ctime>
+#include <fstream>
+#endif
+
+void mindReadingCards(string name);
+void MagicSquare(string name);
+void enterToContinue();
+void guess1089(string name);
+int makeNumber(int total1);
+void pause();
+void cubedRoot(string name);
+void numberDivining(string name);
+void Birthdays(string name);
+void spellingBee(char string1[], string name);
+void titleScreen();
+char repeatLoop();
